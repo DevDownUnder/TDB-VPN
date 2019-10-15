@@ -17,7 +17,7 @@
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 4fr 3fr 3fr 3fr 3fr;
+    grid-template-rows: 1fr 8fr 3fr 3fr 3fr 3fr;
     grid-template-areas: "header" "hero" "banner--one" "banner--two" "section" "footer";
     margin: 0;
 }
@@ -58,17 +58,22 @@
 }
 
 #navigation-content {
-    margin-right: auto;
-    margin-left: auto;
-    width: auto;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
+
 /* delete these? */
+
 #navigation-content:before {
     content: " ";
     display: table;
-    
 }
+
 /* delete these? */
+
 #navigation-content:after {
     content: " ";
     display: table;
@@ -81,29 +86,79 @@
 }
 
 #navigation-bar {
-    display: flex;
+  
     margin-left: -15px;
     margin-right: -15px;
 }
 
 /* delete these? */
+
 #navigation-bar:before {
     content: " ";
     display: table;
-    
 }
+
 /* delete these? */
+
 #navigation-bar:after {
+    clear: both;
     content: " ";
     display: table;
-    clear: both;
 }
 
 .navigation-bar {
     align-items: center;
+}
+
+#navigation-logo {
+    
+}
+
+.navigation-logo {
+    font-size: 26px;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a, a:visited {
+    text-decoration-style: none;
+    color: black;
+}
+
+#navigation-btn {
    
 }
 
+.navigation-btn {
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#navigation-btn-btn {
+   
+}
+
+.navigation-btn-btn {
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-color: #f64f64;
+    border-radius: 3px;
+    border-width: 1px;
+    color: #f64f64;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    outline: none;
+    padding: 5px 14px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: color .25s ease-out, background-color .25s ease-out, border-color .25s ease-out;
+    user-select: none;
+    vertical-align: middle;
+}
 
 /* /header */
 
