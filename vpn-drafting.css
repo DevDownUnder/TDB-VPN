@@ -407,6 +407,10 @@ template {
   padding: 8px;
 }
 
+.logo--red-dot{
+  color: #f64f64
+}
+
 
 .nav__content--btn {
   background-color: transparent;
@@ -426,6 +430,11 @@ template {
 /* /nav */
 
 /* main */
+
+.hero{
+  background: url(https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  padding: 60px 0px;
+}
 
 #hero__text{
 margin: auto;
