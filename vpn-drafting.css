@@ -371,6 +371,10 @@ template {
 
 /* body */
 
+#body{
+  margin: 0px;
+}
+
 .body {
   background-color: hsla(hue, saturation, lightness, alpha);
   color: #73757a;
@@ -394,7 +398,7 @@ template {
 }
 
 .nav__content {
-  padding: 30px;
+  padding: 20px;
 }
 
 .nav__content--logo {
