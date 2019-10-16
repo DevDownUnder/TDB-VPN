@@ -433,6 +433,7 @@ margin: auto;
 
 .hero__text{
   padding: 100px 200px;
+  padding-bottom: 30px;
   text-align: center;
   }
 
@@ -446,5 +447,27 @@ margin: auto;
 
 .hero__paragraph{
 
+
+}
+
+#hero__btn-row{
+display: flex;
+justify-content: center
+}
+
+
+.hero__btn{
+  background-color: transparent;
+  border: 1px solid  #f64f64;
+  border-radius: 3px;
+  color: #f64f64;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  outline: none;
+  padding: 5px 20px;
+  text-align: center;
+  vertical-align: middle;
 
 }
