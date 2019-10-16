@@ -566,3 +566,22 @@ p {
   height: auto;
 
 }
+
+/* Footer */
+
+hr{
+  margin: 0;
+}
+
+.footer{
+  background: #f8f8f8;
+  height: 5rem;
+  margin: 0;
+}
+
+.p-footer{
+  text-align: center;
+  margin: 0;
+}
+
+/* /footer*/
