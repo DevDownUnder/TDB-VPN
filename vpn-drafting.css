@@ -369,9 +369,26 @@ template {
 
 /* /NOTES */
 
+/* text standard */
+
+h1 {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 600;
+  letter-spacing: -.35px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* /text standard */
+
 /* body */
 
-#body{
+#body {
   margin: 0px;
 }
 
@@ -411,14 +428,13 @@ template {
   padding: 8px;
 }
 
-.logo--red-dot{
+.logo--red-dot {
   color: #f64f64
 }
 
-
 .nav__content--btn {
   background-color: transparent;
-  border: 1px solid  #f64f64;
+  border: 1px solid #f64f64;
   border-radius: 3px;
   color: #f64f64;
   display: inline-block;
@@ -435,46 +451,46 @@ template {
 
 /* main */
 
-.hero{
+.hero {
   background: url(https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-  padding: 60px 0px;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
-#hero__text{
-margin: auto;
+#hero__text {
+  margin: auto;
+  
 }
 
-.hero__text{
-  padding: 100px 200px;
+.hero__text {
+  padding: 80px 200px;
   padding-bottom: 30px;
   text-align: center;
-  }
-
-.hero__heading{
-  color: #fff;
-  font-size: 36px;
-  line-height: 48px;
-  font-weight: 600;
-  letter-spacing: -.35px;
-
 }
 
-.hero__paragraph{
+.hero__heading {
+  color: #fff;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  letter-spacing: -.35px;
+}
+
+.hero__paragraph {
   color: #fff;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
 }
 
-#hero__btn-row{
-display: flex;
-justify-content: center
+#hero__btn-row {
+  display: flex;
+  justify-content: center
 }
 
-
-.hero__btn{
+.hero__btn {
   background-color: #f64f64;
-  border: 1px solid  #f64f64;
+  border: 1px solid #f64f64;
   border-radius: 3px;
   color: #fff;
   display: inline-block;
@@ -485,5 +501,27 @@ justify-content: center
   padding: 10px 23px;
   text-align: center;
   vertical-align: middle;
+}
 
+#banner__one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__one {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+#one__img {
+  box-sizing: border-box;
+  width: 33rem;
+  height: auto;
+}
+
+#one__text {
+  color: #383c43;
+  width: 37rem;
+  height: auto;
 }
