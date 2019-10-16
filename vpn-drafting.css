@@ -525,3 +525,44 @@ p {
   width: 37rem;
   height: auto;
 }
+
+#features{
+  display: grid;
+ 
+ grid-template-areas: "limits anonymity"
+ "location devices";
+   padding:100px;
+   justify-content: center;
+   gap: 80px;
+}
+
+.features__limits{
+  grid-area: limits;
+  text-align: left;
+  width: 30rem;
+  height: auto;
+}
+
+.features__anonymity{
+  grid-area: anonymity;
+  text-align: left;
+  width: 30rem;
+  height: auto;
+
+}
+
+.features__location{
+  grid-area: location;
+  text-align: left;
+  width: 30rem;
+  height: auto;
+
+}
+
+.features__devices{
+  grid-area: devices;
+  text-align: left;
+  width: 30rem;
+  height: auto;
+
+}
