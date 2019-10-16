@@ -46,75 +46,53 @@
     font-weight: 700;
 }
 
-#navigation {
-    display: block;
+#nav__container {
     margin-top: 0;
 }
 
-.navigation {
+.nav__container{
     padding: 0 8px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-#navigation-content {
+#nav__row {
     margin-right: 0;
     margin-left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    
 }
 
 /* delete these? */
 
-#navigation-content:before {
+#nav__row:before {
     content: " ";
     display: table;
 }
 
 /* delete these? */
 
-#navigation-content:after {
+#nav__row:after {
     content: " ";
     display: table;
     clear: both;
 }
 
-.navigation-content {
+.nav__row {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-#navigation-bar {
-  
-    margin-left: -15px;
-    margin-right: -15px;
-}
-
-/* delete these? */
-
-#navigation-bar:before {
-    content: " ";
-    display: table;
-}
-
-/* delete these? */
-
-#navigation-bar:after {
-    clear: both;
-    content: " ";
-    display: table;
-}
-
-.navigation-bar {
-    align-items: center;
-}
-
-#navigation-logo {
+#nav__content{
     
 }
 
-.navigation-logo {
+#nav__content--logo {
+    justify-self: flex-start;
+}
+
+.nav__content--logo {
     font-size: 26px;
     min-height: 1px;
     padding-left: 15px;
@@ -126,11 +104,11 @@ a, a:visited {
     color: black;
 }
 
-#navigation-btn {
-   
+#nav__content--btn {
+    justify-self: flex-end;
 }
 
-.navigation-btn {
+.nav__content--btn {
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
