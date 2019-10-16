@@ -88,17 +88,26 @@
 
 #nav__content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+      "logo . . button"
+     ;
 }
 
-#nav__content--logo {}
+
+#nav__content--logo {
+    grid-area: logo;
+}
 
 .nav__content--logo {
     font-size: 26px;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
+    background: lightgreen;
+    padding: 8px;
+
 }
 
 a, a:visited {
@@ -106,12 +115,30 @@ a, a:visited {
     color: black;
 }
 
-#nav__content--btn {}
+#nav__content--btn {
+    grid-area: button;
+}
 
 .nav__content--btn {
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    background-color: lightgreen;
+    border-color: #f64f64;
+    border-width: 2px;
+    cursor: pointer;
+    color: #f64f64;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    outline: none;
+    padding: 5px 14px;
+    touch-action: manipulation;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    transition: color .25s ease-out, background-color .25s ease-out, border-color .25s ease-out;
+    vertical-align: middle;
+    width: 30%;
+    height: 60%;
+    margin: auto;
 }
 
 #navigation-btn-btn {}
