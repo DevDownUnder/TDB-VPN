@@ -438,6 +438,7 @@ margin: auto;
   }
 
 .hero__heading{
+  color: #fff;
   font-size: 36px;
   line-height: 48px;
   font-weight: 600;
@@ -446,8 +447,10 @@ margin: auto;
 }
 
 .hero__paragraph{
-
-
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 #hero__btn-row{
@@ -457,16 +460,16 @@ justify-content: center
 
 
 .hero__btn{
-  background-color: transparent;
+  background-color: #f64f64;
   border: 1px solid  #f64f64;
   border-radius: 3px;
-  color: #f64f64;
+  color: #fff;
   display: inline-block;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 600;
-  line-height: 20px;
+  line-height: 32px;
   outline: none;
-  padding: 5px 20px;
+  padding: 10px 23px;
   text-align: center;
   vertical-align: middle;
 
